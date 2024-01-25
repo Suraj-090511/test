@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star rating </title>
+</head>
+<style>
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    font-size:xx-large;
+}
+.star_color{
+    color: yellow;
+}
+
+</style>
+<body>
+    <h1 style ="text-align: center;">Rating System </h1>
+    <div class = "container">
+    <span class ="star" data-index="1">&#9733</span>   
+    <span class ="star" data-index="2">&#9733</span>
+    <span class ="star" data-index="3" >&#9733</span>
+    <span class ="star" data-index="4">&#9733</span>
+    <span class ="star" data-index="5">&#9733</span>
+    </div>
+        <h3 style="text-align: center;"> Review count : <span id="count"> </span></h3>
+    <script src="review_system.js"/> 
+    
+</body>
+</html>
